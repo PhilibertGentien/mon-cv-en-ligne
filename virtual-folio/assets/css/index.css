@@ -1,0 +1,13 @@
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;   /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: red;    /* color of the scroll thumb */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;       /* roundness of the scroll thumb */
+  }
